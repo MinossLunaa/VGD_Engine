@@ -75,7 +75,7 @@ var bg = new GameObject({ x: level.x, y: level.y, width: canvas.width * 4, heigh
    ===================================================================== */
 
 //BGFULL
-//bg.img.src = `images/bgfull.png`;
+bg.img.src = `images/bgfull.png`;
 
 // --- Projectiles (pooled) ---
 var bullets = [];
